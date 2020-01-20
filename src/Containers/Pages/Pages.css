@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin: auto;
+    padding:0 30px;
+
+}
+.right-block{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+    align-self: center;
+    padding: 0 20%;
+}
+.info{
+float: right;
+}
+
+.input-wrap{
+   display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+position: relative;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black ;
+    overflow-y: auto;
+    position: absolute;
+    width: 200px;
+    background-color: aquamarine;
+}
+.list{
+    text-decoration: none;
+    color: black;
+}
+.list:hover{
+    background: chocolate;
+}
