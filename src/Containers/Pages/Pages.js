@@ -6,7 +6,7 @@ const Pages = (props) => {
     const getPage = async (id)=>{
         if(id){
             const res = await axiosTV(`/shows/${id}`);
-            setInfo(res.d)
+            setInfo(res.data)
         }
 
     };
